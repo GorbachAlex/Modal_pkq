@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <meta charset="utf-8" http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Modalka</title>
+  	<script src="jquery.min.js"></script>
+	<script src="modal.js"></script>
+	<link href="modal.css" type=text/css rel=stylesheet>
+ <script>
+
+$(document).ready(function(){
+	
+		<!-- ADD USER -->
+	$('#btn_start').click(function() { 
+	 ShowModalWindow('confirm','center','Confirm this');
+	 });
+	
+});
+
+</script>   
+</head>
+<!-- ******************************************************************************************************************** -->
+<body>
+<div>
+<button id="btn_start" type="button" title="Press Me">Center Modal</button>
+</div>
+</body>
+</html>
